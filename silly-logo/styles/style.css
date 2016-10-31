@@ -1,0 +1,93 @@
+div {
+  margin: 0; padding: 0;
+}
+
+div div{
+  background: blue;
+  position: relative;
+}
+
+.silly{
+  height: 404px; width: 334px;
+  margin: 100px auto;
+}
+
+.head{
+  width: 100px; height: 100px;
+  top: 32px;
+
+  border-radius: 100%;
+	-moz-border-radius: 100%;
+	-webkit-border-radius: 100%;
+}
+
+.mouth{
+  width: 45px; height: 20px;
+  margin: 0 auto; top: 50px;
+  border: solid 5px #fff;
+  border-color: transparent transparent #fff transparent;
+  border-radius: 100%;
+	-moz-border-radius: 100%;
+	-webkit-border-radius: 100%;
+}
+
+.mouth:hover{
+  width: 30px; height: 30px;
+  margin: 0 auto; top: 50px;
+  background: #fff;
+
+  border-radius: 100%;
+}
+
+.l_eye, .r_eye{
+  background: #fff;
+  width: 10px; height: 10px;
+  position: absolute; top: 35px;
+
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+}
+
+.r_eye{left: 20px;}
+.l_eye{right: 20px;}
+
+.l_ant, .lm_ant, .rm_ant, .r_ant{
+  width: 6px; height: 50px;
+  position: absolute; top: -34px;
+
+  border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+.r_ant{
+  right: 0px;
+  top: -25px;
+  transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+}
+
+.rm_ant{
+  right: 25px;
+  transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	-moz-transform: rotate(30deg);
+}
+
+
+.lm_ant{
+  left: 25px;
+  transform: rotate(-30deg);
+	-webkit-transform: rotate(-30deg);
+	-moz-transform: rotate(-30deg);
+}
+
+.l_ant{
+  left: 0px;
+  top: -25px;
+  transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+}
